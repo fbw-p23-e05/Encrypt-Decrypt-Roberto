@@ -2,7 +2,7 @@
 
 Making a program to encrypt and decrypt text and evolving it as I advance my python knowledge.
 
-## First versions
+## First version
 
 Two separate programs to encrypt and decrypt. User inputs some text and a numeric value key, text will be shifted using that key value using the Unicode table, with a loop for uppercase, lowercase or numeric values, it will also change spaces into ¶, anything else (symbols and other special characters) will be left as in the original text.
 
