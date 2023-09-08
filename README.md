@@ -2,7 +2,7 @@
 
 Making a program to encrypt and decrypt text and evolving it as I advance my python knowledge.
 
-## First versions
+## First version
 
 Two separate programs to encrypt and decrypt. User inputs some text and a numeric value key, text will be shifted using that key value using the Unicode table, with a loop for uppercase, lowercase or numeric values, it will also change spaces into ¶, anything else (symbols and other special characters) will be left as in the original text.
 
@@ -15,7 +15,7 @@ Made it so user has to input a 3 digit key code, then the program encrypts the m
 Reduced to a single program to give a choice between encrypting or decrypting, also simplified the code using 'def' functions. It still works as in Mark 2 on how it encrypts, but added several loops to include spaces and all basic latin special characters to also be shifted using the unicode table. Any other special characters (latin supplement, extended or other languages) should remain the same.
 
 ### Roadmap:
-- #### WIP Fourth Version Mark 4:
+- #### WIP Fourth Version Mark IV:
   Working on making the program not require specifically a 3 digit key, but instead let the user input any lenght key they want, and the program should encrypt the text following the same logic as before of all text's characters being shifted in order for each   
   digit in the key by the value of the digit multiplied to its position, using its corresponding unicode table values.
 
